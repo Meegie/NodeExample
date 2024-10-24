@@ -5,4 +5,7 @@ nvm install 20
 
 node -v
 
+mkdir app
+cd app
+git clone https://github.com/Meegie/NodeExample .
 node index.js
