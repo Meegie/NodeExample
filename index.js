@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const data = fs.readFileSync('/request.txt', 'utf-8');
 
-console.log('Data: ', data');
+console.log('Data: ', data);
 
 try {
   const parsedData = JSON.parse(data);
